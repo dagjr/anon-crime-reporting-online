@@ -1,0 +1,94 @@
+
+  <!-- start of navbar -->
+<nav class="navbar navbar-inverse navbar-static-top example-8">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar8">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand text-hide" href="index.php">Brand Text
+        </a>
+      </div>
+      <div id="navbar8" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a id="searchlink" href="#search"><span id="logosearch" class="glyphicon glyphicon-search"> SEARCH ... </a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span id="logosearch1" class="glyphicon glyphicon-map-marker"> NAVIGATION ... </a>
+            <ul class="dropdown-menu" role="menu" >
+              <li><a href="most-wanted-list.php" id="tt1">Most Wanted</a></li>
+              <li><a href="featured-crimes.php" id="tt1">Featured Crime</a></li>
+              <li><a href="keep-safe.php" id="tt1">Keep Safe</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-header">MACRO UTILITY</li>
+              <li><a href="multistep.php" id="tt1">Show report forms</a></li>
+              <li><a href="#myModal2" data-toggle="modal">Show the emergency numbers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <div id="searchbar" class="searchcontainer" style="display: none;">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3" style="display: none;">
+        <div id="imaginary_container" style="display: none;"> <a href="#search">
+          <div class="input-group stylish-input-group" style="display: none;">
+            <input type="text" style="display: none;" name="search-small" class="form-control"  placeholder="Search" >
+            <span class="input-group-addon" style="display: none;">
+              <button type="submit" style="display: none;">
+                <span class="glyphicon glyphicon-search" style="display: none;"></span>
+              </button>
+            </span>
+          </div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- modal -->
+  <div id="search">
+    <button type="button" class="close">×</button>
+    <form action="search.php" method="POST">
+      <input type="search" value="" name="search-big" placeholder="type keyword(s)"  required id="searchplacehodertext"/>
+      <button type="submit" name="submit-search" class="btn btn-primary">Search</button>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <center><button data-dismiss="modal" type="button" class="btn btn-danger">Back</button></center>
+  </div><!-- end modal-footer -->
+</div>
+<!-- end modal-body -->
+</div>
+</div>
+</div>
+<div class="modal text-center fade" id="myModal2">
+<div class="modal-dialog" style="padding-top: 50%;">
+<div class="modal-content" id="modalchenes">
+<div class="modal-body">
+  <i class="fa fa-info-circle fa-5x" style="color: white;"></i>
+  <br>
+  <h2><strong>Please dial 911 or any of these emergency numbers:
+  </strong></h2>
+  <div class="container">
+    <div class="row">
+      <p><b>Philippine National Police (PNP) hotline patrol</b><br>Hotline: 911 / (02)722-0650<br>Text hotline: 0917-847-5757<br><b>Bureau of Fire Protection (NCR)</b><br>Direct line: (02) 426-0219, (02) 426-3812, (02)426-0246
+      </p>
+    </a>
+  </div>
+</div>
+</div><!-- end modal-body -->
+<div class="modal-footer">
+<center><button data-dismiss="modal" type="button" class="btn btn-danger">Back</button></center>
+</div><!-- end modal-footer -->
+</div><!-- end modal-content -->
+</div><!-- end modal-dialog -->
+</div><!-- end myModal -->
+
+
+  <!-- end of navbar -->

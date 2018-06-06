@@ -1,0 +1,433 @@
+body{
+    margin:0px;
+    padding:0px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+#sidebar{
+  background: #2F354F;
+  width: 200px;
+  height: 1210px;
+  display: block;
+  position: absolute;
+  left: -200px;
+  top: 0px;
+  transition: left 0.4s linear;
+}
+#sidebar.visible{
+  left:0px;
+  transition: left 0.4s linear;
+}
+#sidebar-ul{
+  margin: 0px;
+  margin-top: 60px;
+  padding: 0px;
+}
+#sidebar-ul li{
+  list-style: none;
+}
+#sidebar-ul li a{
+  background: #2F354F;
+  color: #ccc;
+  display: block;
+  width: 180px;
+  padding: 10px;
+  text-decoration: none;
+}
+#sidebar-btn{
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 15px;
+  cursor: pointer;
+  margin: 20px;
+  position: absolute;
+  top: 50px;
+  right: -60px;
+}
+#sidebar-btn span{
+  height: 2px;
+  background: #111;
+  margin-bottom: 5px;
+  display: block;
+}
+#sidebar-btn span:nth-child(2){
+width: 75%;
+}
+#sidebar-btn span:nth-child(3){
+width: 50%;
+}
+/*end of sidebar*/
+#imagebaha{
+  border-radius: 10px;
+  margin-top: 10px;
+}
+/*all content*/
+#KS1{
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS2{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS3{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS4{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS5{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS6{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS7{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS8{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS9{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS10{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS11{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS12{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS13{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS14{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+#KS15{
+  display: none;
+  margin: 5px;
+  padding-top: 0px;
+}
+
+
+
+#sbKS1:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}#sbKS2:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}
+#sbKS3:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}
+#sbKS4:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}
+#sbKS5:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}#sbKS6:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}#sbKS7:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}#sbKS8:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}#sbKS9:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}#sbKS10:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}#sbKS11:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}#sbKS12:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}#sbKS13:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}#sbKS14:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}#sbKS15:hover{
+  font-weight: bolder;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-left: 5px;
+}
+/*end of all content design*/
+/*nav#navbar213.navbar.navbar-inverse{
+  display: -webkit-box;
+  z-index: 1;
+  background-color: #2f354f;
+  border-radius: 0px;
+      min-height: 50px;
+}
+a#brandmacro.navbar-brand{
+  font-size: 20pt;
+  color: white;
+  font-weight: 900;
+}
+.navbar-inverse .navbar-toggle{
+      border-color: #2f354f;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+      background-color: rgba(0, 0, 0, 0.14);
+}*/
+
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+      #KS1{
+        margin-top: 20%;
+      }
+      #KS2{
+        margin-top: 20%;
+      }
+      #KS3{
+        margin-top: 20%;
+      }
+      #KS4{
+        margin-top: 20%;
+      }
+      #KS5{
+        margin-top: 20%;
+      }
+      #KS6{
+        margin-top: 20%;
+      }
+      #KS7{
+        margin-top: 20%;
+      }
+      #KS8{
+        margin-top: 20%;
+      }
+      #KS9{
+        margin-top: 20%;
+      }
+      #KS10{
+        margin-top: 20%;
+      }
+      #KS11{
+        margin-top: 20%;
+      }
+      #KS12{
+        margin-top: 20%;
+      }
+      #KS13{
+        margin-top: 20%;
+      }
+      #KS14{
+        margin-top: 20%;
+      }
+      #KS15{
+        margin-top: 20%;
+      }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+      #KS1{
+        margin-top: 13%;
+        margin-left:30px;
+      }
+        #KS2{
+          margin-top: 13%;
+          margin-left:30px;
+        }
+
+          #KS3{
+            margin-top: 13%;
+            margin-left:30px;
+          }
+            #KS4{
+              margin-top: 13%;
+              margin-left:30px;
+            }
+              #KS5{
+                margin-top: 13%;
+                margin-left:30px;
+              }
+                #KS6{
+                  margin-top: 13%;
+                  margin-left:30px;
+                }
+                  #KS7{
+                    margin-top: 13%;
+                    margin-left:30px;
+                  }
+                    #KS8{
+                      margin-top: 13%;
+                      margin-left:30px;
+                    }
+                      #KS9{
+                        margin-top: 13%;
+                        margin-left:30px;
+                      }
+                        #KS10{
+                          margin-top: 13%;
+                          margin-left:30px;
+                        }
+                          #KS11{
+                            margin-top: 13%;
+                            margin-left:30px;
+                          }
+                            #KS12{
+                              margin-top: 13%;
+                              margin-left:30px;
+                            }
+                              #KS13{
+                                margin-top: 13%;
+              margin-left:30px;
+                              }
+              #KS14{
+            margin-top: 13%;
+                margin-left:30px;
+              }
+                #KS15{
+                  margin-top: 13%;
+                  margin-left:30px;
+                }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+      #sidebar{
+        left: 0px;
+        height: 1412px;
+      }
+      #sidebar.visible{
+        left:-200px;
+      }
+    }
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+      #KS1{
+        margin-top: 7%;
+      }
+      #KS2{
+        margin-top: 7%;
+      }
+      #KS3{
+        margin-top: 7%;
+      }
+      #KS4{
+        margin-top: 7%;
+      }
+      #KS5{
+        margin-top: 7%;
+      }
+      #KS6{
+        margin-top: 7%;
+      }
+      #KS7{
+        margin-top: 7%;
+      }
+      #KS8{
+        margin-top: 7%;
+      }
+      #KS9{
+        margin-top: 7%;
+      }
+      #KS10{
+        margin-top: 7%;
+      }
+      #KS11{
+        margin-top: 7%;
+      }
+      #KS12{
+        margin-top: 7%;
+      }
+      #KS13{
+        margin-top: 7%;
+      }
+      #KS14{
+        margin-top: 7%;
+      }
+      #KS15{
+        margin-top: 7%;
+      }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }

@@ -1,0 +1,8 @@
+.thumbnail, .img-thumbnail{
+    padding:0px!important;
+}
+
+div.thumbnail{
+  margin-bottom: 20px;
+  border: none;
+}

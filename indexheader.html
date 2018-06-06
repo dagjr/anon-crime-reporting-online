@@ -1,0 +1,107 @@
+
+<meta name="description" content="">
+
+<link rel="icon" href="images/macrofavico.ico">
+
+
+<!-- Mobile viewport optimized -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no">
+
+<!-- Bootstrap CSS -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Custom CSS -->
+<link href="css/styles.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/normalize.css" rel="stylesheet">
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<!-- Include Modernizr in the head, before any other Javascript -->
+<script src="js/modernizr-2.6.2.min.js"></script>
+
+<!-- jQuery -->
+<script src="js/jquery.validate.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- GOOGLE FONT -->
+<link href='https://fonts.googleapis.com/css?family=Vast Shadow' rel='stylesheet'>
+</head>
+<body onload="myFunction()">
+  <div class="container" onload="myFunction()">
+    <div class="row">
+      <div id="preloader" onload="myFunction()">
+        <div id="loader"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="content">
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+
+				<button type="button" id="navbar-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-brand " id="navbarname"><a href="index.php" id="linkindex">
+					<img id="logopic"  src="images/logo321.png" alt="">
+				</a></div>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbar-brand-centered">
+
+				<ul class="nav navbar-nav navbar-right">
+
+					<li><a href="most-wanted-list.php" id="macro001">Most Wanted</a></li>
+					<li><a href="featured-crimes.php" id="macro001">Featured Crime</a></li>
+					<li><a href="keep-safe.php" id="macro001">Keep Safe</a></li>
+          <li><a href="multistep.php" id="macro001">Create New Reports</a></li>
+          <li><a id="searchlink" style="display:block;" href="#search"><span id="logosearch" class="glyphicon glyphicon-search"> SEARCH ... </a></li>
+
+				</ul>
+
+			</div><!-- /.navbar-collapse -->
+			<ul class="nav navbar-nav pull-right navbar-collapse navbar-left">
+				<li><a id="searchlink" href="#search"><span id="logosearch" class="glyphicon glyphicon-search"></span></a></li><
+			</ul>
+
+			<div id="searchbar" class="searchcontainer" style="display: none;">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3" style="display: none;">
+						<div id="imaginary_container" style="display: none;"> <a href="#search">
+							<div class="input-group stylish-input-group" style="display: none;">
+
+								<input type="text" style="display: none;" name="search-small" class="form-control"  placeholder="Search" >
+								<span class="input-group-addon" style="display: none;">
+									<button type="submit" style="display: none;">
+										<span class="glyphicon glyphicon-search" style="display: none;"></span>
+									</button>
+
+								</span>
+							</div>
+						</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div><!-- /.container-fluid -->
+
+	</nav>
+
+
+	<div id="search">
+		<button type="button" class="close">×</button>
+		<form action="search.php" method="POST">
+			<input type="search" value="" name="search-big" placeholder="type keyword(s) here"  id="searchplacehodertext" required />
+			<button type="submit" name="submit-search" class="btn btn-primary">Search</button>
+		</form>
+	</div>

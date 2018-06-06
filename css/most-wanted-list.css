@@ -1,0 +1,17 @@
+
+#uc1top{
+    text-align: center;
+    font-family: 'Abril Fatface';
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 0;
+}
+#lobo1{
+  margin-bottom: 8px;
+}
+@media only screen and (max-width : 768px){
+
+#lobo1{
+      text-align: -webkit-center;
+}
+}
